@@ -1,0 +1,30 @@
+body{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+h2{
+    font-size: 5rem;
+    color: #8f79f2;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdowndate{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.days, .hours, .minutes, .seconds{
+    font-size: 3rem;
+}
+
+.waiting{
+    height: 50vh;
+}
